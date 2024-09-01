@@ -1,18 +1,49 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+   background-color: rgb(229, 141, 47);
+}
+
 #cabecalho{
-    background-color: #665242 ;   
-    color: #faebd7;  
-    width: 100%;  
-       }
+   text-align: center;
+   padding: 10px;
+   width: 100%;
+   background-color: rgb(21, 21, 21);
+   color: rgb(162, 155, 150);   
+}
 
+a{
+   margin: 60px;
+   color: rgb(154, 72, 0);
+   background-color: rgb(47, 31, 21);
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid black;
+   display: inline-block;
+   margin-bottom: 5px;
+   
+}
 
+#sobre{
+   width: 50%;
+   background-color: rgb(255, 255, 255);
+   margin: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px;
+   border-radius: 20px;
+   box-shadow: gray 5px 5px;
+   border: 1px solid black;
+}
 
-       #Bolos{
-        font-family: 'Times New Roman', Times, serif;
-        background-color: #ebcabb;
-        color:white;
-        width: 50%;
-        margin: 20%;
-     margin: 50px; 10px
-
-
-        box-shadow: #595858 5px 5px;
+img {
+   margin: 20px;
+   width: 400px;
+   height: 300px;
+   border: 4px solid powderblue;
+   border-radius: 20%;
+}
